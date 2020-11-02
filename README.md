@@ -13,12 +13,13 @@ When brought back online:
  - [Deployed Link](https://budget-tracker19.herokuapp.com/)
 
 ## Screen Shots
-![home]()
-![home]()
+![home](https://github.com/EdenKhaos/18-PWA-Budget-Tracker/blob/main/public/images/offline.JPG)
+![home](https://github.com/EdenKhaos/18-PWA-Budget-Tracker/blob/main/public/images/online.JPG)
 ## Tech Used
 - HTML
 - CSS
 - Javascript
+- Booststrap with Fontawesome
 - Node.js
 - Express
 - MongoDB
