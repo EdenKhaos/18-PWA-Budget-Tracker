@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-//mongodb://<dbuser>:<dbpassword>
+//mongodb://<dbuser>:<dbpassword>@budget.lvarg.mongodb.net/budget-tracker?retryWrites=true&w=majority
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget-tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
