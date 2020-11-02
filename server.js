@@ -1,12 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const morgan = require("morgan");
+// const morgan = require("morgan");
 
 const app = express()
 const PORT = process.env.PORT || 3000;
 
 //use logger/morgan
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 //parser
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
